@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #F2EDE4;
+  margin: 0;
+  height: 100%;
+  font-family: 'Questrial', sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+.header {
+  background-color: #768FA3;
+  height: 60px;
+  color: #F2EDE4;
+  border-bottom: ;
+}
+
+.nav {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  float: none;
+  margin-top: 0px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.links {
+ float: right;
+ font-size: 0.9rem;
+ margin-top: 25px;
+}
+
+.links a {
+  color: #F2EDE4;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+}
+
+.banner {
+
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+.aboutcontainer1 {
+  background-color: #F2EDE4;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 960px;
+}
+
+.about {
+  color: #768FA3;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.aboutmedia {
+  text-align: center;
+}
+
+.aboutmedia img {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  padding-bottom: 15px;
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+}
+
+.about a {
+  color: #768FA3;
+  font-size: 0.9rem;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1.5px solid #768FA3;
+  padding: 5px 5px;
+}
+
+.portfolio {
+  background-color: #D9D1C7;
+  color: #313F54;
+  float: left 0px;
+  height: auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.portfolio a {
+  color: #313F54;
+  font-size: 0.9rem;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1.5px solid #313F54;
+  padding: 5px 5px;
+}
+
+.portfolio img {
+  padding-top: 30px;
+  white-space: none;
+  width: 24%;
+  padding-right: none;
+  padding-bottom: 15px;
+}
+
+.gallery {
+  background-color: #D9D1C7;
+  height: auto;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallerybanner {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+
+.bannercontainer {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+}
+
+
+.gallerybanner1 {
+  width: 49%;
+  height: auto;
+  float: left;
+}
+
+.gallerybanner1 img {
+  width: 100%;
+  height: auto;
+}
+
+.gallerybanner2{
+  width: 49%;
+  height: auto;
+  float: left;
+}
+
+.gallerybanner2content {
+  color: #768FA3;
+  float: left;
+  width: 85%;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.gallery1 {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.gallerycontainer {
+  background-color: #D9D1C7;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  height: auto;
+}
+
+.gallerycontainer img {
+  max-width: 100%;
+  height: auto;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 220px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.aboutbanner {
+  width: 100%;
+  height: auto;
+}
+
+.aboutcontainer {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  width: 100%;
+}
+
+.aboutbanner1 {
+  width: 50%;
+  height: auto;
+  float: left;
+}
+
+.aboutbanner1 img {
+  width: 100%;
+  height: auto;
+}
+
+.aboutbanner2{
+  width: 50%;
+  height: 300px;
+  float: left;
+}
+
+.aboutbanner2content {
+  background-color: #F2EDE4;
+  color: #768FA3;
+  padding-top: 30px;
+  padding-left: 30px;
+  float: left;
+}
+
+.aboutbanner2content p {
+  width: 85%;
+  height: auto;
+}
+
+.aboutcontentcontainer {
+  display: block;
+  background-color: #F2EDE4;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+  height: 300px;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.aboutcontent1 {
+  color: #768FA3;
+  width: 75%;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  float: left;
+}
+
+.aboutcontent2 {
+  color: #768FA3;
+  width: 75%;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  float: left;
+}
+
+.aboutcontent3 {
+  color: #768FA3;
+  width: 75%;
+  padding-left: 15px;
+  padding-bottom: 60px;
+  float: left;
+}
+
+div.blogcontact {
+  width: 100%;
+  height: 300px;
+}
+
+div.blog {
+  background-color: #768FA3;
+  width: 50%;
+  height: 300px;
+  float: left;
+}
+
+div.blogcontent {
+  color: #F2EDE4;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+div.blogcontent a, div.contactcontent a {
+  color: #F2EDE4;
+  font-size: 0.9rem;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1.5px solid #F2EDE4;
+  padding: 5px 5px;
+}
+
+div.contact {
+  background-color: #313F54;
+  width: 50%;
+  height: 300px;
+  float: left;
+}
+
+div.contactcontent {
+  color: #F2EDE4;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.inquiries {
+  background-color: #F2EDE4;
+  float: left 0px;
+  height: auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.inquiries h3, .inquiries h1, .inquiries p {
+  color: #768FA3;
+}
+
+.inquiries input {
+  color: #768FA3;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+}
+
+.inquiriesfield input {
+  border-radius: 5px;
+  border: 1px solid #D9D1C7;
+  padding: 5px 5px;
+}
+
+.wordpress {
+  background-color: #F2EDE4;
+  height: auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.wordpress h3, .wordpress h1, .wordpress p {
+  color: #768FA3;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+.footer, .push {
+  display: block;
+  text-align: center;
+  bottom:0;
+  width: 100%;
+  height: 35px;
+  position: fixed;
+  background-color: #2F3540;
+}
+
+.footercontent {
+  background-color: #2F3540;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+  padding-right: 30px;
+  max-width: 960px;
+}
+
+.footercontent img{
+  width: 20px;
+  height: 20px;
+  padding-top: 5px;
+  margin: 5px;
+  float: left;
+}

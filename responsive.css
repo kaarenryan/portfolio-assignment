@@ -1,0 +1,25 @@
+.portfolio img {
+  padding-top: 30px;
+  white-space: none;
+  width: 48%;
+  padding-right: none;
+  padding-bottom: 30px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.clr {
+  clear: both;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (min-width:500px)
+.about {
+  width: 80%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
