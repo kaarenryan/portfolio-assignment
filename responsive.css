@@ -1,9 +1,13 @@
 .portfolio img {
-  padding-top: 30px;
   white-space: none;
   width: 48%;
   padding-right: none;
-  padding-bottom: 30px;
+}
+
+.gallery img {
+  white-space: none;
+  width: 48%;
+  padding-right: none;
 }
 
 img {
@@ -17,9 +21,7 @@ img {
   margin: 0;
 }
 
-@media screen and (min-width:500px)
-.about {
-  width: 80%;
-  padding-left: 10px;
-  padding-right: 10px;
+.blogcontent, .contactcontent {
+  width: 100%;
+  float: none;
 }
