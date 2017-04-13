@@ -12,12 +12,24 @@
  <body>
    <div class="header">
    <div class="nav">
+   <div class="logo"><img src="Artboard 1.png"/></div>
    <div class="links">
    <a href="portfolio.html">Home</a>
    <a href="portfolioabout.html">About Me</a>
    <a href="portfoliogallery.html">Portfolio</a>
    <a href="portfolioblog.html">Blog</a>
    <a href="portfoliocontact.html">Contact</a>
+   <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+   <script>
+   function myFunction() {
+    var x = document.getElementById("nav");
+    if (x.className === "nav") {
+        x.className += " responsive";
+    } else {
+        x.className = "nav";
+    }
+    }
+  </script>
    </div>
    </div>
    </div>
@@ -47,7 +59,7 @@
      <div class="portfoliotext">
      <h3>PORTFOLIO</h3>
      <h1>Painting and Design Works</h3>
-     </div> 
+     </div>
      <p><i><a href="portfoliogallery.html">view gallery</a></i></p>
      <img src="IMG_1308.jpg"/>
      <img src="IMG_3896.jpg"/>
